@@ -21,7 +21,7 @@ return new class extends Migration
             $table->rememberToken();
             $table->timestamps();
 
-            $table->foreignId('roles_id')->default(1)->constrained();
+            $table->foreignId('role_id')->default(1)->constrained();
         });
     }
 
